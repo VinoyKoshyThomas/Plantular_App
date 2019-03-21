@@ -3,9 +3,9 @@ import { Platform, Dimensions } from 'react-native';
 import { createDrawerNavigator, createAppContainer } from 'react-navigation';
 
 import HomeScreen from '../screens/HomeScreen';
-import LinksScreen from '../screens/LinksScreen';
+import Recognize from '../screens/Recognize';
 import SettingsScreen from '../screens/SettingsScreen';
-import SuggestScreen from '../screens/SuggestScreen';
+import Recommend from '../screens/Recommend';
 
 import MenuDrawer from '../components/MenuDrawer';
 
@@ -24,10 +24,10 @@ const DrawerNavigator =  createDrawerNavigator(
 			screen: HomeScreen
 		},
 		Recognize: {
-			screen: LinksScreen
+			screen: Recognize
 		},
 		Suggest: {
-			screen: SuggestScreen
+			screen: Recommend
 		},
 		Settings: {
 			screen: SettingsScreen
