@@ -3,7 +3,7 @@ import { Platform, Dimensions } from 'react-native';
 import { createDrawerNavigator, createAppContainer } from 'react-navigation';
 
 import HomeScreen from '../screens/HomeScreen';
-import Recognize from '../screens/Recognize';
+import Recognize from '../src/camera.page';
 import SettingsScreen from '../screens/SettingsScreen';
 import Recommend from '../screens/Recommend';
 
